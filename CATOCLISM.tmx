@@ -2,7 +2,9 @@
 <map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="180" height="150" tilewidth="12" tileheight="12" infinite="0" nextlayerid="67" nextobjectid="1">
  <tileset firstgid="1" source="assets/32x32.tsx"/>
  <tileset firstgid="2761" source="house.tsx"/>
- <tileset firstgid="3490" source="32x32 more space.tsx"/>
+ <tileset firstgid="3490" name="32x32 more space" tilewidth="12" tileheight="12" tilecount="4150" columns="83">
+  <image source="assets/32x32 more space.png" width="1003" height="603"/>
+ </tileset>
  <tileset firstgid="7640" source="острова и плиты.tsx"/>
  <tileset firstgid="11933" name="TX Props" tilewidth="10" tileheight="10" tilecount="2601" columns="51">
   <image source="assets/TX Props.png" width="512" height="512"/>
